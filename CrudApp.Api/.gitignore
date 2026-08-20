@@ -1,0 +1,9 @@
+## .NET
+bin/
+obj/
+
+## IDE
+.idea/
+
+## Environment / secrets
+appsettings.Development.json
