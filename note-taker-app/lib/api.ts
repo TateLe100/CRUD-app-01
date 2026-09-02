@@ -30,3 +30,24 @@ export async function postNote(note: {title: string; content: string; creator: s
     if (!res.ok) throw new Error("Failed to create notes");
     return res.json();
 }
+
+// BASIC PUT API CALL
+export async function putNote(noteId: string, note: {id: number; title: string; content: string; creator: string}) : Promise<void> {
+    const res = await fetch(`${API_BASE}/notes/${noteId}`, {method: "PUT", headers: {"Content-Type": "application/json"}, body: JSON.stringify(note)});
+    if (!res.ok) throw new Error("Failed to updating note at id: " + noteId);
+    // return res.json();
+}
+
+// BASIC GET API CALL
+export async function getNoteById(noteId: string): Promise<Note> {
+    const res = await fetch(`${API_BASE}/notes/${noteId}`, {cache: "no-store"});
+    if (!res.ok) throw new Error("Failed to fetch note at id: " + noteId);
+    return res.json();
+}
+
+
+// BASIC DELETE API CALL
+export async function deleteNote(noteId: string) : Promise<void> {
+    const res = await fetch(`${API_BASE}/notes/${noteId}`, {method: "DELETE"});
+    if (!res.ok) throw new Error("Failed to deleting note at id: " + noteId);
+}

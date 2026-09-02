@@ -1,4 +1,5 @@
 import { getNotes } from "@/lib/api";
+import DeleteNoteButton from "@/app/notes/DeleteNoteButton";
 
 export default async function NotesPage() {
     const notes = await getNotes();
@@ -11,7 +12,7 @@ export default async function NotesPage() {
             ) : (
                 <ul>
                     {notes.map((note) => (
-                        <li key={note.id}>{note.title}</li>
+                        <li key={note.id}>{note.title} <DeleteNoteButton noteId={note.id.toString()}></DeleteNoteButton> </li>
                     ))}
                 </ul>
             )}
