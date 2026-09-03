@@ -17,6 +17,6 @@ export default function DeleteNoteButton({ noteId }: { noteId: string }) {
     }
 
     return (
-        <button onClick={() => handleDelete()}>Delete</button>
+        <button className={"text-red-600 hover:text-red-800 text-sm font-medium"} onClick={() => handleDelete()}>Delete</button>
     )
 }
