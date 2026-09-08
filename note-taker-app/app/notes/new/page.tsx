@@ -3,6 +3,7 @@
 import { useState, FormEvent } from "react";
 import {postNote} from "@/lib/api";
 import { useRouter } from "next/navigation";
+import HomeButton from "@/app/components/HomeButton";
 
 
 export default function NewNotePage() {
@@ -38,7 +39,8 @@ export default function NewNotePage() {
                     <textarea id={"content"} rows={4} className={"w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-400"} value={content} onChange={(e) => setContent(e.target.value)} />
                 </div>
 
-                <button className={"bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"} type="submit">Save Note</button>
+                <button className={"bg-blue-300 text-white px-4 py-2 rounded-md hover:bg-blue-600"} type="submit">Save Note</button>
+                <HomeButton></HomeButton>
             </form>
         </div>
     );

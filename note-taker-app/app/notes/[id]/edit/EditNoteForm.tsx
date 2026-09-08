@@ -2,6 +2,7 @@
 import { useState, FormEvent } from "react";
 import {Note, putNote} from "@/lib/api";
 import { useRouter } from "next/navigation";
+import HomeButton from "@/app/components/HomeButton";
 
 export default function EditNoteForm({note}: {note: Note}) {
 
@@ -40,6 +41,7 @@ export default function EditNoteForm({note}: {note: Note}) {
 
 
                 <button className={"bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"} type="submit">Update Note</button>
+                <HomeButton></HomeButton>
             </form>
         </div>
 
