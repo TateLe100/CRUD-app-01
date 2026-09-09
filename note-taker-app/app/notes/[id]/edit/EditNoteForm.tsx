@@ -27,13 +27,14 @@ export default function EditNoteForm({note}: {note: Note}) {
             <h1 className="text-3xl font-bold mb-6">Edit Note</h1>
             <form onSubmit={handleSubmit}>
                 <div className={"mb-4"}>
+                    <label className={"block text-sm font-medium mb-1"} htmlFor="creator">Creator</label>
+                    <input readOnly id={"creator"} value={creator} className={"w-full border border-gray-300 rounded-md p-2 bg-gray-100 text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-400"}  />
+                </div>
+                <div className={"mb-4"}>
                     <label className={"block text-sm font-medium mb-1"} htmlFor="title">Title</label>
                     <input id={"title"} value={title} className={"w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-400"} onChange={(e) => setTitle(e.target.value)} />
                 </div>
-                <div className={"mb-4"}>
-                    <label className={"block text-sm font-medium mb-1"} htmlFor="creator">Creator</label>
-                    <input id={"creator"} value={creator} className={"w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-400"} onChange={(e) => setCreator(e.target.value)} />
-                </div>
+
                 <div className={"mb-4"}>
                     <label className={"block text-sm font-medium mb-1"} htmlFor="content">Content</label>
                     <textarea rows={4} id={"content"} value={content} className={"w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-400"} onChange={(e) => setContent(e.target.value)} />

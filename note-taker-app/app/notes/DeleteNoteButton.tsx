@@ -8,6 +8,9 @@ export default function DeleteNoteButton({ noteId }: { noteId: string }) {
     const router = useRouter();
 
     async function handleDelete(){
+        const confirmed = confirm("Are you sure you want to delete note?");
+
+        if (!confirmed) return;
         try {
             await deleteNote(noteId);
             router.refresh();

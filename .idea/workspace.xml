@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6204b1a-6a72-4d48-8505-ce185efdd86d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CrudApp.Api/Controllers/NotesController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CrudApp.Api/Controllers/NotesController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +11,69 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000046965047538" />
+      <entry key="MS500" value="1.0951365127128712" />
+      <entry key="S2" value="1.9926515944259326" />
+      <entry key="S5" value="3.2317646292621345" />
+      <entry key="S10" value="4.227541952892185" />
+      <entry key="S30" value="5.286201327038642" />
+      <entry key="S60" value="5.624574954248293" />
+      <entry key="M2" value="5.807376905130696" />
+      <entry key="M5" value="5.92173442776465" />
+      <entry key="M10" value="5.960661251310395" />
+      <entry key="M15" value="5.973728154760876" />
+      <entry key="M30" value="5.9868410098393365" />
+      <entry key="H1" value="5.9934147265382025" />
+      <entry key="H2" value="5.9967059172340536" />
+      <entry key="H4" value="5.998352596928139" />
+      <entry key="D1" value="5.999725382571492" />
+      <entry key="W1" value="5.999960767707977" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.20877258761497924" />
+      <entry key="MS500" value="0.7900214702037837" />
+      <entry key="S2" value="1.7525468588282846" />
+      <entry key="S5" value="3.05201098746559" />
+      <entry key="S10" value="4.108858898662969" />
+      <entry key="S30" value="5.237207265163375" />
+      <entry key="S60" value="5.598624093247518" />
+      <entry key="M2" value="5.794012939117489" />
+      <entry key="M5" value="5.9162921590215065" />
+      <entry key="M10" value="5.957923707160069" />
+      <entry key="M15" value="5.971899456415847" />
+      <entry key="M30" value="5.985924820602073" />
+      <entry key="H1" value="5.992956170848344" />
+      <entry key="H2" value="5.996476523989143" />
+      <entry key="H4" value="5.998237871439148" />
+      <entry key="D1" value="5.9997062576460145" />
+      <entry key="W1" value="5.999958035477527" />
+    </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1,
@@ -22,27 +84,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;javascript.preferred.runtime.type.id&quot;: &quot;node&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tate/source/repos/CRUD-app-01&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Tate/source/repos/CRUD-app-01",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.8665.259" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10315.144" />
       </set>
     </attachedChunks>
   </component>
@@ -59,6 +122,7 @@
       <workItem from="1788829818514" duration="40000" />
       <workItem from="1788829872367" duration="21000" />
       <workItem from="1788829923858" duration="15000" />
+      <workItem from="1788912483858" duration="247000" />
     </task>
     <servers />
   </component>
